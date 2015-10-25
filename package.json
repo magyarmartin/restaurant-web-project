@@ -1,0 +1,19 @@
+{
+  "name": "restaurant-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martin4955/restaurant-web-project.git"
+  },
+  "author": "martin4955",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martin4955/restaurant-web-project/issues"
+  },
+  "homepage": "https://github.com/martin4955/restaurant-web-project#readme"
+}
