@@ -7,5 +7,20 @@ footer p{
 }
 
 .content{
-    background-color: blue;
+    background-color: rgb(33, 150, 243);
+}
+
+nav{
+    margin-bottom: 0px !important;
+}
+
+#title{
+    z-index: 3;
+    position: relative;
+    margin-top: -300;
+}
+
+.center{
+    margin: auto;
+    z-index: -1;
 }
