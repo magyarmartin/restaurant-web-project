@@ -2,11 +2,11 @@
 <html>
     <head lang="hu-HU">
         <title>Something restaurant</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/paper/bootstrap.min.css">
         <link rel="stylesheet" href="../CSS/master.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/paper/bootstrap.min.css">
         <meta charset="utf-8">
     </head>
-    <body>
+    <body id="bootstrap-overrides">
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -15,8 +15,8 @@
                 <div>
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">Főoldal</a></li>
-                        <li><a href="">Étlap</a></li>
-                        <li><a href="">Rólunk</a></li> 
+                        <li><a href="menu.html">Étlap</a></li>
+                        <li><a href="aboutus.html">Rólunk</a></li> 
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Bejelentkezés</a></li>
@@ -26,9 +26,11 @@
         </nav>
         <div class="content">
             <img class="img-responsive center" src="../images/foods.png" alt="some food">
-            <h1 id="title">Something restaurant</h1>
-            <h2>Egy nagyon új étterem</h2>
-            <h3>Csak neked</h3>
+            <div id="titleUnderPicture">
+                <h1 class="white">Something restaurant</h1>
+                <h4 class="white">Egy nagyon új étterem</h4>
+                <h5 class="white">Csak neked</h5>
+            </div>
         </div>
         <footer>
             <p>This is the footer so some text goes here..</p>
