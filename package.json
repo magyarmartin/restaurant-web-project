@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/martin4955/restaurant-web-project/issues"
   },
-  "homepage": "https://github.com/martin4955/restaurant-web-project#readme"
+  "homepage": "https://github.com/martin4955/restaurant-web-project#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }

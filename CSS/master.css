@@ -8,19 +8,89 @@ footer p{
 
 .content{
     background-color: rgb(33, 150, 243);
+    min-height: 83vh;
 }
 
 nav{
     margin-bottom: 0px !important;
 }
 
-#title{
-    z-index: 3;
-    position: relative;
-    margin-top: -300;
-}
-
 .center{
     margin: auto;
-    z-index: -1;
+}
+
+#titleUnderPicture{
+    position: relative;
+    margin: auto;
+    max-width: 600px;
+    z-index: 2;
+    margin-top: -100px;
+}
+
+.white{
+    color: white;
+}
+
+.black{
+    color: black;
+}
+
+.title{
+    padding-top: 30px;
+    margin-left: 70px;
+    margin-top: 0px;
+}
+
+.menu{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.someSpaceLeft{
+     padding-left: 80px;
+}
+
+.plus-button{
+    box-shadow: 2px 2px 5px #888888;
+    border-radius: 20px;
+    background-color: white;
+    border-style: solid;
+    border: 1px solid white;
+    color: rgb(33, 150, 243);
+}
+
+.plus-button:active, .inverse-button:active{
+    box-shadow: initial;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.inverse-button{
+    box-shadow: 2px 2px 5px #888888;
+    border-radius: 20px;
+    background-color: rgb(33, 150, 243);
+    border-style: solid;
+    border: 1px solid rgb(33, 150, 243);
+    color: white;
+}
+
+.foodTitle{
+    font-weight: bold;
+}
+
+.no-top-margin{
+    margin-top: 0px;
+}
+
+#bootstrap-overrides .cart{
+    background-color: rgb(127, 128, 123);
+    min-height: inherit;
+}
+
+.cart-list{
+    list-style: none;
+}
+
+#bootstrap-overrides .login{
+    min-height: 83vh;
 }
