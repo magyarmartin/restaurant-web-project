@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head lang="hu-HU">
+        <title>Something restaurant</title>
+        <link rel="stylesheet" href="../CSS/master.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/paper/bootstrap.min.css">
+        <meta charset="utf-8">
+    </head>
+    <body id="bootstrap-overrides">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><img id="navbarLogo" width="40px" src="http://www.designknock.com/wp-content/uploads/2013/03/Restaurant-Logo-1.jpg"></a>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav">
+                        {{#each navs}}
+                            <li><a href="{{link}}">{{name}}</a></li>
+                        {{/each}}
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="{{loginLink}}"><span class="glyphicon glyphicon-user"></span>{{loginOrName}}</a></li>
+                        <li><a href="{{regLink}}">{{regOrLogout}}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="login row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <h3 class="black">Regisztrációs adatok</h3>
+                <form class="form-horizontal black" role="form" method="POST">
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="username">Felhasználónév:</label>
+                    <div class="col-sm-10">
+                      <input type="text" name="username" class="form-control" id="username" placeholder="pl. kispista25" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="pwd">Jelszó:</label>
+                    <div class="col-sm-10"> 
+                      <input type="password" name="pwd" class="form-control" id="pwd" placeholder="Adj megy egy jelszót" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="email">E-mail cím:</label>
+                    <div class="col-sm-10">
+                      <input type="email" name="email" class="form-control" id="email" placeholder="kovacsbela@gmail.com" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="zip">Irányítószám:</label>
+                    <div class="col-sm-10">
+                      <input type="number" name="zip" class="form-control" id="zip" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="city">Város:</label>
+                    <div class="col-sm-10">
+                      <input type="text" name="city" class="form-control" id="city" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="address">Pontos cím:</label>
+                    <div class="col-sm-10">
+                      <input type="text" name="address" class="form-control" id="address" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="phone">Telefonszám:</label>
+                    <div class="col-sm-10">
+                      <input type="tel" name="tel" class="form-control" id="phone" required>
+                    </div>
+                  </div>
+                  <div class="form-group"> 
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-default">Elküldés</button>
+                    </div>
+                  </div>
+                </form>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <footer>
+            <p>This is the footer so some text goes here..</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+{
+    "simpleNavs": [
+        {
+            "name": "Főoldal",
+            "link": "/"
+        },
+        {
+            "name": "Étlap",
+            "link": "menu"
+        },
+        {
+            "name": "Rólunk",
+            "link": "aboutus"
+        }],
+    "adminNavs" : [
+        {
+            "name": "Rendelések",
+            "link": "orders"
+        }]
+}
