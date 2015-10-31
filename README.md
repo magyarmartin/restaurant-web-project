@@ -122,11 +122,11 @@ A functionalTest.js ellenőrzi hogy betölt-e a kezdőlap
 
 ##Felhasználói dokumentáció
 
-#Telepítés
+###Telepítés
 A program elérhető a (https://restaurant-web-project.herokuapp.com/) linken. Ha valaki mindenképpen telepíteni szeretné a gépére ahhoz git-re van szüksége.
 Első körben telepíteni kell a git-et, majd parancssorba a *git clone https://github.com/martin4955/restaurant-web-project.git* parancsal lehet letölteni az aktuális mappába.
 A futtatáshoz nodejs-re van szükség. Ennek letültése után a program az npm start parancsal futtatható.
-#Használat
+###Használat
 A felhasználó először a kezdőlapon találja magát. A bal felső sávban található regisztráció vagy belépés gombbal tud regisztrálni illetve belépni.
 Ha rendelni szeretne akkor először regisztrálnia kell majd miután belépett az *Étlap* oldalon tud válogatni az aktuális ételek közül és a **+** jellel tudja hozzáadni a kosárhoz.
 Ha végzett az ételek kiválasztásával akkor a küldés gombbal tudja leadni azokat. Ha valamelyik ételt mégsem kívánja megvenni, azt a szemetes gombbal törölheti.
