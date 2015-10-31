@@ -232,3 +232,9 @@ function getOrders(){
    var orders = JSON.parse(fs.readFileSync('json/orders.json', 'utf8'));
    return orders.orders;
 }
+
+module.exports = {
+   getUsers: getUsers,
+   getAdmins: getAdmins,
+   getOrders: getOrders
+}

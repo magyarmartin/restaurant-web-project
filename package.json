@@ -23,5 +23,10 @@
     "handlebar": "^1.0.0",
     "hbs": "^3.1.1",
     "md5": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3",
+    "zombie": "^4.2.1"
   }
 }

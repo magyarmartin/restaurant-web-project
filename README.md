@@ -88,7 +88,7 @@ Admin:
 Főoldal
 ![Főoldal](docs/images/fooldal.png)
 Rólunk
-![Rólunk](docs/imgaes/aboutus.jpg)
+![Rólunk](docs/images/aboutus.jpg)
 Étlap
 ![Étlap](docs/images/menu.jpg)
 Rengelések
@@ -103,7 +103,7 @@ Regisztráció
 ###Fejlesztői környezet
 Az alkalmazást a cloud9 fejlesztői környezet segítségével fejlesztettem
 ###Könyvtárstruktúra
-- **docd** ide kerülnek a dokumentumok
+- **docs** ide kerülnek a dokumentumok
   - **images** ide kerülnek a dokumentumokhoz tartozó képek
 - **json** mivel ebben a beadandóban nem szabadott adatbázist használni a különböző adatokat json-okba mentettem amiket ide helyeztem el
 - **node_modules** ide kerülnek a dependenciák. Az általam felhasznált dependenciák a következők: express, body-parser, hbs, md5
@@ -112,5 +112,22 @@ Az alkalmazást a cloud9 fejlesztői környezet segítségével fejlesztettem
   - **JS**
   - **images**
 - **views** a különböző nézetek
+- **test** a tesztek
 
 ##Tesztek
+###Unit tesztek
+Az index.test.js ellenőrzi az index.js-ben található fájlbeolvasó függvényket.
+###Funkcionális tesztek
+A functionalTest.js ellenőrzi hogy betölt-e a kezdőlap
+
+##Felhasználói dokumentáció
+
+#Telepítés
+A program elérhető a (https://restaurant-web-project.herokuapp.com/) linken. Ha valaki mindenképpen telepíteni szeretné a gépére ahhoz git-re van szüksége.
+Első körben telepíteni kell a git-et, majd parancssorba a *git clone https://github.com/martin4955/restaurant-web-project.git* parancsal lehet letölteni az aktuális mappába.
+A futtatáshoz nodejs-re van szükség. Ennek letültése után a program az npm start parancsal futtatható.
+#Használat
+A felhasználó először a kezdőlapon találja magát. A bal felső sávban található regisztráció vagy belépés gombbal tud regisztrálni illetve belépni.
+Ha rendelni szeretne akkor először regisztrálnia kell majd miután belépett az *Étlap* oldalon tud válogatni az aktuális ételek közül és a **+** jellel tudja hozzáadni a kosárhoz.
+Ha végzett az ételek kiválasztásával akkor a küldés gombbal tudja leadni azokat. Ha valamelyik ételt mégsem kívánja megvenni, azt a szemetes gombbal törölheti.
+Ha az összeset törölni szeretné, használja a törlés gombbot.
